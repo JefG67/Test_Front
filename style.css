@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+ }
+
+#wrapper{
+    background-color: rgb(221, 208, 25);
+    padding-right : 300px;
+    padding-left : 300px; 
+}
+
+    /* ---------Header--------- */
+    #oh {
+        
+        height:40px;
+        background-color:#0084ff;
+        text-align:center;
+}
+ 
+header img{
+            width: 100%;
+}
+
+
+    /* ----------Body----------- */
+
+main{
+    display:flex
+}
+
+aside figure{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+aside img{
+	width:200px;
+}
+aside{
+	padding:5px
+}   
+
