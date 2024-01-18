@@ -17,6 +17,8 @@
         height:40px;
         background-color:#0084ff;
         text-align:center;
+        font-size: 28px;
+        font-weight: bold;
 }
  
 header img{
@@ -27,18 +29,39 @@ header img{
     /* ----------Body----------- */
 
 main{
-    display:flex
+    display:flex;
+    background-color:#eff1f3;
+    padding-left:20px;
 }
 
 aside figure{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+    
 }
 aside img{
 	width:200px;
 }
 aside{
-	padding:5px
+	padding:5px;
+    background-color:#7674df;
+    height: 100%;
+    
 }   
 
+nav ul{
+    background-color:#7674df;
+    text-align: left;
+    -top:30px;
+    list-style-type: none;
+
+
+}
+   
+
+/* -----------footer----------- */
+
+#ha {
+    background-color:#0084ff;
+}
