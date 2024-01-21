@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+
+    <!-- Le <head> inclue son titre et des liens ou des définitions vers des scripts et feuilles de style ( css par exemple )  -->
     <head>
         <meta charset="utf-8"/>
         <title>Simpsons</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">                    
+        <!-- <link rel="stylesheet" href="style.css" est notre lien (raccord) vers notre page CSS -->
     </head>
      
+    <!-- <body> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document.  -->
+
 <body>
     <div id="wrapper">
         <header>
@@ -16,22 +21,31 @@
             </figure>
         </header>
 
+    <!-- la balise main est utilisé pour la **************  -->
+
         <main>
-    
+
+    <!-- ceci est la parti pour le menu de navigation sur la gauche dans ce cas si, on utilise donc la balise <nav> -->
             <nav>
+                <!-- <ul> représente une liste d'éléments sans ordre particulier. Il est souvent représenté par une liste à puces. -->
                 <ul>
                     <li><a href="#Accueil">Accueil</a></li>
                     <li><a href="#Le film">Le film</a></li>
                     <li><a href="#Personnages">Personnages</a></li>
                     <li><a href="#Histoire">Histoire</a></li>
                     <li><a href="#Matt Groening">Matt Groening</a></li>
+                    
+                    <!-- <li> est utilisé pour représenter un élément dans une liste. Il doit être contenu dans un élément parent : une liste ordonnée (<ol>),
+                         une liste non ordonnée (<ul>) ou un menu (<menu>). -->
 
+                     <!-- <a> (pour ancre) avec son attribut href, crée un lien hypertexte vers des pages web,
+                         des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout ce qu'une URL peut adresser  -->
 
                 </ul>
 
             </nav>
 
-        
+        <!-- ceci est la parti central de notre site, on utlise la balise article suivi de <h1> pour le titre et de <p> pour le paragraphe -->
 
             <article>
 
@@ -46,7 +60,7 @@
                 </article>
 
 
-
+        <!-- <aside> c'est pour cree un menu par exemple a droite dans ce cas-si -->
                 <aside>
                     <figure>
                         <img src="img/matt.png" alt="matt Groening">
@@ -59,6 +73,9 @@
 
                 </aside>
         </main>
+
+        <!-- Le footer est la parti tous en bas du site, il peux contenir des lien / mention légale etc...  -->
+
         <footer>
             <small>
                 <p id="ha">©2015 The simpsons Elan</p>
