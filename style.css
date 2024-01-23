@@ -100,3 +100,27 @@ nav ul{
 
 }
 
+@media screen and (max-width: 700px) {
+    #wrapper{
+        padding: 0;
+    }
+    main {
+      flex-direction: column;
+    }
+    nav li{
+        padding: 15px 0;
+    }
+ 
+    article {padding-right: 4%;
+    }
+
+    aside {
+           width: 90%;
+    }
+
+
+    
+}
+
+ 
+  
