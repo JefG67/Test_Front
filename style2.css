@@ -1,0 +1,43 @@
+*{
+    margin : 0;    
+    padding : 0;
+    box-sizing : border-box ;
+} 
+
+#nav { background-color: rgb(35, 80, 228);
+       list-style-type: none;
+       padding-left: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       
+}
+
+a{
+    color:white}
+
+h1{ text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main{ padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 10px;
+
+    
+
+}
+h2{ padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+#fot { background-color:rgb(35, 80, 228);
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color:white
+}
+
